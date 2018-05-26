@@ -1,0 +1,346 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Learning Mangement System</title>
+<style type="text/css">
+
+body{
+	background-color:#FFF;
+	font-size:87.5%;
+	font-family:Verdana, Geneva, sans-serif;
+	line-height:1.5;
+	text-align:left;
+	
+	border-top-color:#FFF;
+	border-bottom-color:#FFF;
+	border-left-color:#FFF;
+	border-right-color:#FFF;
+	
+	}
+
+
+header img {
+	width:17%;
+	height:150px;
+	float:left;
+	border-right:#333 1px solid;
+	}
+	
+header {
+	position:relative;
+	height:152px;
+	width:100%;
+	border:1px #333333 solid;
+	
+	}
+	
+	
+#header_div1 {
+	margin-right:0px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	background-color: #0F0;
+	margin: 100px;
+	height: 50px;
+	width: 92%;
+}
+
+a {
+	text-decoration:none;
+	}
+
+nav {
+	position:relative;
+	border:#333 solid 1px;
+	margin-top:0.5%;
+	background: #666;
+	height:40px;
+	border-radius:5px;
+	width:99.5%;
+	margin-bottom:0.5%;
+	}
+	
+nav ul{
+	list-style:none;
+	margin: 0 20%;
+	
+	}
+nav ul li{
+	float:left;
+	display:inline;
+	text-align:left;
+	
+		}
+nav ul li a{
+	transition:all 0.3s;
+	margin-left:35px;
+	margin-right:35px;
+	font-weight:500;
+	font-family:Verdana, Geneva, sans-serif;
+	}
+
+nav ul li a:link , nav ul li a:visited {
+	color:#FFF;
+	display:inline-block;
+	padding:10px 20px;
+	}
+nav ul li a:hover{
+	background-color:#CF5C3F;	
+	}
+
+	input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=date], input[type=time] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: left;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+} 
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+ .password{
+       
+       width: 50%;
+
+     
+
+ }
+
+  .bottem-Right{
+
+    margin: auto;
+   
+    border: 3px solid #73AD21;
+    padding: 10px;
+    float: right;
+    width: 50%;
+
+
+  } 
+
+ 
+  
+.footer_image{
+ width: 98.1%;
+ background-color:#333;
+}
+
+.footer_image{
+     width: 1300px;
+     height: 120px;
+
+
+ }
+
+ .bottomleftmargin{
+
+  	 margin: auto;
+   
+    border: 3px solid #73AD21;
+    padding: 20px;
+    height: 95%;
+   
+    
+  }
+
+   .pure-button-primary{
+   
+   	  display: inline-block;
+  border-radius: 4px;
+  
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+
+  padding: 0.25px;
+  width: 200px;
+ 
+  cursor: pointer;
+  margin: 5px;
+
+   }
+
+
+  body{
+  	background-color: white;
+
+  }
+ 
+ h1{
+  font-family:Georgia;
+ }
+
+</style>
+
+<body>
+ 
+
+<header> <img src="nsbm.jpg">
+  <div id="header_div1">Marcee here</div>
+</header>
+<center>
+<nav>
+	<ul>
+   
+    	<li id="headerhome"><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Support</a></li>
+ </ul>
+</nav>
+</center>
+
+ <div class="bottomleftmargin">
+
+    
+    <div class="container">
+         <h1 align="center">EVENT MANAGEMENT</h1>
+
+
+      <label><b>Date</b></label>
+      <input type="text" placeholder="Date" name="Degree" id="Date" required>
+
+      <label><b>Degree</b></label>
+      <input type="text" placeholder="Degree" name="Degree" required>
+
+      <label><b>Model No</b></label>
+      <input type="text" placeholder="Model No" name="Model_No" required>
+
+
+      <label><b>Time</b></label>
+      <input type="time"  name="username" required>
+
+      <label><b>to</b></label>
+      <input type="time" name="password" required>
+
+
+      <label><b>Hall No</b></label>
+      <input type="text"  name="Hall_No" required>
+     
+
+      <div class="button-panel">
+      <table>
+      <tr>
+      <th>  
+      <button class="pure-button pure-button-primary">Save</button>
+      </th>
+      <th>  
+      <button class="pure-button pure-button-primary">Update</button>
+      </th>
+      <th>  
+      <button class="pure-button pure-button-primary">Delete</button>
+      </th>
+      <th>  
+      <button class="pure-button pure-button-primary">Search</button>
+      </th>
+      </table>
+
+      </div>
+    </div>	
+
+   </div>
+  <script>
+    
+    //  var d=Date();
+
+   
+  </script>
+<footer id="footer1"><img src="banner-logos.png" id="footerimg" class="footer_image"/> </footer>
+<footer id="footer2">Copyright © 2016 National School of Business Management. All Rights Reserved.</footer>
+</body>
+</html>
